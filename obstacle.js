@@ -22,14 +22,13 @@ class Obstacle{
     }
 
     drawItSelf(){
-        console.log(rockWords);
         this.ob.drawImage(this.img,this.x,this.y-50,150,100);
         this.ob.font = "20px Arial";
         this.ob.fillText(rockWords[this.i],this.x+25, this.y+20);
     }
 
     moveLeft(){
-        this.x -= 5;
+        this.x -= 7;
     }
 }
 

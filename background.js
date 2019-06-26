@@ -24,7 +24,7 @@ class Cloud{
         this.cl.drawImage(this.img,this.x,this.y,100,50);
     }
     moveLeft(){
-        this.x -= 5;
+        this.x -= 7;
     }
 }
 
@@ -52,4 +52,3 @@ class FinishLine{
         this.fl.drawImage(this.img,1100,50,70,500);
     }
 }
-

@@ -230,7 +230,7 @@ class Player {
     }
     
     moveLeft(){
-        this.x -=5;
+        this.x -=7;
     }
 
     checkbound(){
@@ -240,8 +240,5 @@ class Player {
         if(this.x < 100){
             this.x =100;
         }
-    }
-    auto(){
-
     }
 }
