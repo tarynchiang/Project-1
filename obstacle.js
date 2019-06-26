@@ -3,7 +3,7 @@ $('.subdiv > button').click(function(){
     rockWords.push($(this).text());
     console.log(rockWords);
     if(rockWords.length > 3){
-        alert("The world is still beautiful,so Don't hate too many things.Please choose 3 as the most.")
+        alert("This world is still beautiful,so Don't hate too many things. Please choose 3 as the most.")
         location.reload();
     }
 });
