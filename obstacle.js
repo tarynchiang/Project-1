@@ -1,5 +1,6 @@
 let rockWords = [];
 $('.subdiv > button').click(function(){
+    $(this).toggleClass("hover").toggleClass("active");
     rockWords.push($(this).text());
     console.log(rockWords);
     if(rockWords.length > 3){
@@ -28,7 +29,7 @@ class Obstacle{
     }
 
     moveLeft(){
-        this.x -= 7;
+        this.x -= 9;
     }
 }
 

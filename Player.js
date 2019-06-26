@@ -230,7 +230,7 @@ class Player {
     }
     
     moveLeft(){
-        this.x -=7;
+        this.x -=9;
     }
 
     checkbound(){

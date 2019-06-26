@@ -24,7 +24,7 @@ class Cloud{
         this.cl.drawImage(this.img,this.x,this.y,100,50);
     }
     moveLeft(){
-        this.x -= 7;
+        this.x -= 9;
     }
 }
 

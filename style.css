@@ -20,11 +20,12 @@
     border-radius: 30px;
     padding:50px;
     width:75%;
+    
 }
 .div-3 > p{
     font-size:30px;
 }
-.div-3 > .subdiv button{
+.btn{
     width:150px;
     height:80px;
     margin:10px 5px;
@@ -32,6 +33,13 @@
     border-width: 3px;
     border-color:black;
     font-size:20px;
+}
+.active{
+    top: 5px;
+    box-shadow:none;
+}
+.hover{
+    box-shadow: 3px 3px black;
 }
 .div-3 > button{
     width:400px;
@@ -71,4 +79,8 @@
     border-width: 5px;
     border-color: black;
     font-size: 30px;
+}
+
+.box-click{
+    
 }
