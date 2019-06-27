@@ -22,6 +22,7 @@ $(document).ready(function () {
 
     $("#start").click(function(){
         $("#info").toggle();
+        $(".keyboard").toggle();
         $("#game-page").toggle();
         StartGame();
     });
