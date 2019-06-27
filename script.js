@@ -183,7 +183,7 @@ function StartGame(){
         checkboundAll();
         if (counter % 100 === 7) {
             let random = Math.floor(Math.random() * 10);
-            let i = Math.floor(Math.random()*3);
+            let i = Math.floor(Math.random()*rockWords.length);
             if (random > 2) {
                 let obs = new Obstacle(1100, 250,i);
                 allTheObstacles1.push(obs);
